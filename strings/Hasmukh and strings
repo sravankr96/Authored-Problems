@@ -1,0 +1,47 @@
+###Hasmukh and Strings:
+
+Hasmukh always likes string computations and also he is good at it. One of his friends came to him with one such problem. That is given a string S he rotates it in both the directions specified number of times left rotations given by KL and right rotations given by KR.
+The rotations are defined as,
+1.Each left rotation KL diaplaces all the characters backward by one position and the first element goes to the last position.
+2.Each right rotation KR displaces all the characters forward by one position and the last element comes to the first position.
+
+Once the rotations are done he gives Q number of queries. For each query q hasmukh should answer the character at that position after the rotations.
+This operation will be performed T times by providing a new set of input string,rotations and queries at each test case.
+As Hamukh is drowsy at that time help him to finish the task.
+
+INPUT format:
+First line consists of T testcases.
+for each T testcase S,KL,KR,Q are provided.
+The next Q lines contain a Query q in each.
+
+OUTPUT format:
+Output contains q lines each displaying the charecter at the queried position.
+
+constraints:
+0 <= T <= 10^5
+0 < S[] <= 10^5
+0 <= KL,KR <= 10^9
+0 <= Q <= 10^9
+0 <= q < s[]
+
+(s[] ->size of the input string
+ consider 0 as the starting position of the string)
+
+Sample INPUT1:
+1
+abcdefghi 4 2 4
+2
+4
+6
+8
+
+Sample OUTPUT1:
+e
+g
+i
+b
+
+Explaination:
+Input string:	abcdefghi
+string after rotations:	cdefghiab
+e,g,i,b are the chars at the queried positions 2,4,6,8 respectively.

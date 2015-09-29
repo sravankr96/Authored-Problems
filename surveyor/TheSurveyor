@@ -1,0 +1,29 @@
+###The Surveyor:
+
+A surveyor is given a contract to survey land for construction. The construction is planned in such a way that it should be in a regular shape. Given the angle between two sides of a construction shape X degrees, the surveyor needs to find weather he can survey a regular shaped land with the internal angle between it's sides is X. As the surveyor have heavy work load, your job is to code a simple program to help the surveyor, that prints YES if the construction is possible and NO if it's not.
+
+INPUT:
+1st line contains the number of test cases T,
+next T lines contain the value x,internal angle between the construction shapes.
+
+OUTPUT:
+T lines, each line printing YES if construction is possible and NO if not.
+
+CONSTRAINTS:
+0 <= T <= 10^3
+0 <= X <= 10^9
+
+Time Limt: 0.01 sec
+
+Sample test case:
+1)INPUT:
+	2
+	60
+	70
+  OUTPUT:
+	YES
+	NO
+
+Explaination:
+given T=2 and
+for first test case X = 60 degrees,possible for a construction with 3 sides(triangle).
